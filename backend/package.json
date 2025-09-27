@@ -1,0 +1,13 @@
+{
+  "name": "sample-app-ac-1",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon app.js"
+  }
+}
